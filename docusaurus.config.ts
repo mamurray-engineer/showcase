@@ -46,21 +46,22 @@ const config: Config = {
           // editUrl:
             // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
+        // {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -73,6 +74,11 @@ const config: Config = {
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
       respectPrefersColorScheme: true,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true
+      }
     },
     navbar: {
       title: 'Mark Murray',
@@ -87,7 +93,10 @@ const config: Config = {
           position: 'left',
           label: 'Technology',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/gallery', label: 'Gallery', position: 'left'},
+        {to: '/awards', label: 'Awards', position: 'left'},
+        
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
