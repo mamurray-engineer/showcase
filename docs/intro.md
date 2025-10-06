@@ -4,6 +4,18 @@ sidebar_position: 1
 
 # Technology Introduction
 
+Building systems and applications based on technology is fun!
+
+## Software Development Life Cycle
+
+As a software engineer I've had many roles, including *Consultant*, *Developer*, *Senior Developer*, and *Integration Specialist*. In those roles I've been involved in every stage of the Software Developemnt Life Cycle (SDLC).
+
+The common phases of the SDLC are:
+
+> Planning, Analysis, Design, Development, Testing, Deployment, Maintenance
+
+
+
 
 
 Let's discover **Docusaurus in less than 5 minutes**.
